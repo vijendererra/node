@@ -7,4 +7,5 @@ COPY packaje.json /app
 RUN npm install
 
 COPY . /app
-# CMD ["NPM","START"]
+CMD ["NPM","START"]
+RUN npm install  ALL
