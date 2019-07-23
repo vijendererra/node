@@ -10,5 +10,5 @@ COPY . /app
 CMD ["NPM","START"]
 RUN npm install  ALL
 
-RUN npm install  GGG
+RUN npm install  GGG222
 
