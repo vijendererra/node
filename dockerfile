@@ -1,10 +1,10 @@
-FROM node:9-slim
+# FROM node:9-slim
 
-WORKDIR /app
+# WORKDIR /app
 
-COPY packaje.json /app
+# COPY packaje.json /app
 
-RUN npm install
+# RUN npm install
 
-COPY . /app
-CMD ["NPM","START"]
+# COPY . /app
+# CMD ["NPM","START"]
