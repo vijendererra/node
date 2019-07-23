@@ -9,3 +9,6 @@ RUN npm install
 COPY . /app
 CMD ["NPM","START"]
 RUN npm install  ALL
+
+RUN npm install  GGG
+
